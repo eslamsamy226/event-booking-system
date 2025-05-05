@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EventBookingSystemBackendApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(EventBookingSystemBackendApplication.class, args);
 	}
 
