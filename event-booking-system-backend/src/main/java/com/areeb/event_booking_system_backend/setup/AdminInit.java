@@ -18,9 +18,11 @@ import java.util.Set;
 public class AdminInit implements CommandLineRunner {
 
 
+    @Autowired
+    private UserDetailsServiceImpl userDetailsService;
 
     @Override
     public void run(String... args) throws Exception {
-
+        userDetailsService.initAdmin();;
     }
 }
